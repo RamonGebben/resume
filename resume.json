@@ -1,0 +1,239 @@
+
+{
+    "basics": {
+        "name": "Ramon Gebben",
+        "label": "Developer",
+        "picture": "https://lh6.googleusercontent.com/-Z7bkC9IUDzY/AAAAAAAAAAI/AAAAAAAADxI/WdXiSbowOGo/s120-c/photo.jpg",
+        "email": "ramon@ra-ge.net",
+        "phone": "+316 30 97 85 40",
+        "website": "http://ra-ge.net",
+        "birthday": "1991-08-07",
+        "summary": "I am a 23 year young, passionate frontend developer using HTML(5), CSS(3)/SCSS/LESS, Javascript(jQuery, Coffee and Vanilla), and Ruby on Rails or Nodejs as backend. I love working on projects such as API's, CMS, and websites with custom CMS. I am looking for a job at an amazing company where I can learn and tryout different approaches and techniques. I would love to learn more about setting up and maintaining database clusters, load balancing, CDN and further extend my knowledge on general web development.",
+        "location": {
+            "address": "Korfoedreef 177",
+            "postalCode": "3562SK",
+            "city": "Utrecht",
+            "countryCode": "NL",
+            "region": "Utrecht"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "Ra_Ge_NET",
+                "url": "https://twitter.com/Ra_Ge_NET"
+            },
+            {
+                "network": "Github",
+                "username": "RamonGebben",
+                "url": "https://github.com/RamonGebben"
+            },
+            {
+                "network": "Bitbucket",
+                "username": "RamonGebben",
+                "url": "https://bitbucket.org/RamonGebben"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Qelp",
+            "position": "Frontend Developer",
+            "website": "http://qelp.com",
+            "startDate": "2014-08-06",
+            "summary": "Qelp is a company that provides smartphone help to non technical people. With QelpCare you can offer your customers 24/7 support through the channel of their liking and availability: online, mobile, retail, call center and even if they search for help using Google. Picture based tutorials, one-click fix and remote diagnostics are available to resolve complex issues or educate about new functions to increase your revenues per user. We worked with Coffeescript for the frontend and the backend was written in PHP.",
+            "highlights": [
+                "Developed a device emulator for the webbrowser. To mimic every phone. This is build with a nodejs server running Express.js and used jQuery in the browser for the rest.",
+                "A webclient generator to scrape a website replace the content with a standard client so it looks like custom trail application within 1 click. This was also created with Express.js and some jQuery in the browser. For styles I tried Semantic UI.",
+                "Created Tranzilla, an application to crawl the API and spellcheck every word served to a client. This is an application written in nodejs, with modules such as Lodash, Q(Promise) and Mocha with Chai for tests. The interface for the project was provided via Electron(by Atom)."
+            ]
+        },
+        {
+            "company": "Mindful Meerkats",
+            "position": "Lead Developer",
+            "website": "http://mindful-meerkats.org",
+            "startDate": "2014-09-11",
+            "summary": "At Mindful Meerkats I am responsible for planning, engineering and developing there entire system, which is a game to make you more mindful of your environment and your own health. I build their backend API with Hapi.js and Authorization via JSON Web Tokens. The game and the CMS are both build with React.js.",
+            "highlights": [
+                "Created API with Hapi.js, Rethinkdb and JSON WebTokens",
+                "Created CMS with React.js",
+                "Creating the game scene with React.js"
+            ]
+        },
+        {
+            "company": "Ra-Ge.NET",
+            "position": "Owner",
+            "website": "http://ra-ge.net",
+            "startDate": "2012-12-01",
+            "summary": "Ra-Ge.NET is the company I started so I could start working as a freelancer. Now it mainly just publishes tools and maintains websites and apps that where build in that past.",
+            "highlights": [
+              "Reached 10 customers",
+              "Created Devstar server environment"
+            ]
+        },
+        {
+            "company": "Owlin",
+            "position": "Frontend developer",
+            "website": "http://owlin.com",
+            "startDate": "2013-02-01",
+            "summary": "At this company I was allowed to intern after I walked in asking to learn how to code.",
+            "highlights": []
+        },
+        {
+            "company": "Various Kitchens",
+            "position": "Chef",
+            "website": "",
+            "startDate": "2012-09-01",
+            "endDate": "2013-07-01",
+            "summary": "After my training as a chef I quickly fought my way up the ladder to become a sous-chef( second man ) and started to lead a team of 3.",
+            "highlights": [
+                "Introduced serveral new dishes by various kitchens.",
+                "Became a sous-chef"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Codebabes",
+            "position": "Tutor",
+            "website": "http://codebabes.com",
+            "startDate": "2014-12-01",
+            "summary": "Codebabes is an platform for learning how to code with positive reinforcements and a small feedback look. So you learn something new, you make a test and you see a babe taking of a piece of her clothes. I wrote some Ruby and Javascript courses and help the owner with maintaining and PR. ",
+            "highlights": []
+        },
+        {
+            "organization": "Saterday Morning Coding Utrecht",
+            "position": "Coörganizer",
+            "website": "http://www.meetup.com/Saturday-Morning-Coding-Utrecht/",
+            "startDate": "2013-05-05",
+            "summary": "This is a small community I joined some time ago. It's not more then a bunch of nice people with a passion for code. We get together every Saturday morning to drink coffee and work on projects, together or on your own project anything goes. Nowadays people come with questions about learning code so we are also working on some learning materials for people who wanna make a start at learning code.",
+            "highlights": [
+                "Won the 2014 Green Hackfest Utrecht."
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "First place visualising sustainability",
+            "date": "2014-10-12",
+            "awarder": "Green Hackfest Utrecht",
+            "summary": "For this event me and my team made an better solution for using electronic car charging stations. This solution was taking a lot of measurements such as CO2 particles, heat and charging levels of the car. With these measurements we could calculate when a car could be moved and send notifications the the owner of the car to move it."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "keywords": [
+                "HTML5",
+                "Javascript",
+                "Node",
+                "CSS(3)",
+                "LESS",
+                "SCSS",
+                "Ruby"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "keywords": [
+                "Express",
+                "EmberJS",
+                "React",
+                "Sails",
+                "Rails",
+                "Sinatra"
+            ]
+        },
+        {
+            "name": "Task runners",
+            "keywords": [
+                "Gulp",
+                "Yeoman",
+                "Grunt"
+            ]
+        },
+        {
+            "name": "Build tools",
+            "keywords": [
+                "Browserify",
+                "Coffeeify",
+                "Reactify",
+                "Uglify"
+            ]
+        },
+        {
+            "name": "Testing",
+            "keywords": [
+                "Mocha",
+                "Chai",
+                "QUnit"
+
+            ]
+        },
+        {
+            "name": "System languages",
+            "keywords": [
+                "BaSH",
+                "FiSH",
+                "Node",
+                "Python",
+                "Ruby"
+            ]
+        }
+    ],
+  "education": [
+    {
+      "institution": "ICT Acedemy Utrecht",
+      "area": "System Administration",
+      "studyType": "MBO",
+      "startDate": "2013-09-01",
+      "endDate": "2014-03-01",
+      "courses": [
+        "Networking",
+        "Webhosts",
+        "ActiveDirectory",
+        "Linux"
+      ]
+    },
+    {
+      "institution": "Leerhotel het Klooster",
+      "area": "Chef de party",
+      "studyType": "MBO",
+      "startDate": "2011-09-01",
+      "endDate": "2013-06-01",
+      "courses": [
+        "Specialisation in Pastry",
+        "Specialisation in Chocolatery",
+        "Specialisation in Vegetables"
+      ]
+    }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Dutch",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Pet projets",
+            "keywords": [
+                "Web apps",
+                "Making and explorings applications such as build tools and other handy tools. ",
+                "Building and flying drones"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "Dubstep",
+                "Drum'n'bass",
+                "Chiptune",
+                "Rock"
+            ]
+        }
+    ]
+}
