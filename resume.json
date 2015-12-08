@@ -2,25 +2,30 @@
 {
     "basics": {
         "name": "Ramon Gebben",
-        "label": "Developer",
-        "picture": "https://lh6.googleusercontent.com/-Z7bkC9IUDzY/AAAAAAAAAAI/AAAAAAAADxI/WdXiSbowOGo/s120-c/photo.jpg",
+        "label": "Frontend Developer",
+        "picture": "http://i.imgur.com/vu6XhzL.jpg",
         "email": "ramon@ra-ge.net",
         "phone": "+316 30 97 85 40",
-        "website": "http://ra-ge.net",
+        "website": "http://ramon-gebben.ninja",
         "birthday": "1991-08-07",
-        "summary": "I am a 23 year young, passionate frontend developer using HTML(5), CSS(3)/SCSS/LESS, Javascript(jQuery, Coffee and Vanilla), and Ruby on Rails or Nodejs as backend. I love working on projects such as API's, CMS, and websites with custom CMS. I am looking for a job at an amazing company where I can learn and tryout different approaches and techniques. I would love to learn more about setting up and maintaining database clusters, load balancing, CDN and further extend my knowledge on general web development.",
+        "summary": "I am a 24 years young passionate front-end developer using HTML(5), CSS(Next)/SCSS/LESS/PostCSS, JavaScript(ESNext, Coffee and Vanilla, TypeScript), and Node.js for backend. In my free time I maintain a website called Daily-Javascript.com, where I mention a new libraries or major changes in the JavaScript community. Besides that I love building on API's with frameworks such as Hapi.js, Koa, Express and just plain Node. When building web application with user interfaces my weapon of choice is React, but I also had a lot of fun with Riot and Vue. I am looking for a job at an amazing company where we can work with bleeding edge technologies and where we can contribute on pushing Javascript and the web to the next level. Furthermore I like to learn more about functional programming, since I'm noticing that this is the easiest way to make scalable and predictable applications. So a company that would embrace these principles would be an amazing environment for me to become a better developer.",
         "location": {
             "address": "Korfoedreef 177",
-            "postalCode": "3562SK",
+            "postalCode": "3562 SK",
             "city": "Utrecht",
             "countryCode": "NL",
             "region": "Utrecht"
         },
         "profiles": [
             {
+                "network": "LinkedIn",
+                "username": "Ramon Gebben",
+                "url": "https://nl.linkedin.com/in/ramon-gebben-88039b85"
+            },
+            {
                 "network": "Twitter",
-                "username": "Ra_Ge_NET",
-                "url": "https://twitter.com/Ra_Ge_NET"
+                "username": "DailyJavascript",
+                "url": "https://twitter.com/DailyJavascript"
             },
             {
                 "network": "Github",
@@ -36,10 +41,19 @@
     },
     "work": [
         {
+            "company": "TouchTribe",
+            "position": "Frontend Developer",
+            "website": "http://touchtribe.nl",
+            "startDate": "2015-07-06",
+            "summary": "",
+            "highlights": []
+        },
+        {
             "company": "Qelp",
             "position": "Frontend Developer",
             "website": "http://qelp.com",
             "startDate": "2014-08-06",
+            "endDate": "2015-06-06",
             "summary": "Qelp is a company that provides smartphone help to non technical people. With QelpCare you can offer your customers 24/7 support through the channel of their liking and availability: online, mobile, retail, call center and even if they search for help using Google. Picture based tutorials, one-click fix and remote diagnostics are available to resolve complex issues or educate about new functions to increase your revenues per user. We worked with Coffeescript for the frontend and the backend was written in PHP.",
             "highlights": [
                 "Developed a device emulator for the webbrowser. To mimic every phone. This is build with a nodejs server running Express.js and used jQuery in the browser for the rest.",
@@ -56,7 +70,7 @@
             "highlights": [
                 "Created API with Hapi.js, Rethinkdb and JSON WebTokens",
                 "Created CMS with React.js",
-                "Creating the game scene with React.js"
+                "Creating the game scene with Phaser.js"
             ]
         },
         {
@@ -67,7 +81,8 @@
             "summary": "Ra-Ge.NET is the company I started so I could start working as a freelancer. Now it mainly just publishes tools and maintains websites and apps that where build in that past.",
             "highlights": [
               "Reached 10 customers",
-              "Created Devstar server environment"
+              "Created Devstar server environment",
+              "Created Cquence animation library"
             ]
         },
         {
@@ -92,14 +107,6 @@
         }
     ],
     "volunteer": [
-        {
-            "organization": "Codebabes",
-            "position": "Tutor",
-            "website": "http://codebabes.com",
-            "startDate": "2014-12-01",
-            "summary": "Codebabes is an platform for learning how to code with positive reinforcements and a small feedback look. So you learn something new, you make a test and you see a babe taking of a piece of her clothes. I wrote some Ruby and Javascript courses and help the owner with maintaining and PR. ",
-            "highlights": []
-        },
         {
             "organization": "Saterday Morning Coding Utrecht",
             "position": "Coörganizer",
