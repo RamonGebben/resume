@@ -45,7 +45,7 @@
             "position": "Frontend Developer",
             "website": "http://touchtribe.nl",
             "startDate": "2015-07-06",
-            "summary": "At TouchTribe I mainly work on one project. This was a photo-book app for a very large vendor. This was a hybrid app. I came into this in the proof of concept phase the project and it will be in the app store's soon. For this project we wrote our own framework on top of Cordova. In order to keep the performance as best as we could we needed to minimize the usage of libraries and optimize every bit of JavaScript. My responsibilities in this project very diverse. From styling to continuous integration. The styling we did with LESS. The naming conventions of classes where very similar to those of BEM but not strongly enforced. For the continuous integration we are using Jenkins together with a custom web hook proxy for handling merges and releases. As a task runner we used gulp and some custom build scripts to handle the native part.",
+            "summary": "At TouchTribe I mainly worked on one project: a photo-book app for a very large vendor. This was a hybrid app. I came into this in the proof of concept phase the project and it will be in the app stores soon. For this project we wrote our own framework on top of Cordova. In order to keep the performance as best as we could we needed to minimize the usage of libraries and optimize every bit of JavaScript. My responsibilities in this project very diverse. From styling to continuous integration. The styling we did with LESS. The naming conventions of classes where very similar to those of BEM, but not strongly enforced. For the continuous integrationwe are using Jenkins together with a custom web hook proxyfor handling merges and releases. As a task runner we used gulp and some custom build scripts to handle the native part.",
             "highlights": [
                 "Setup continuous integration",
                 "Created chat bot for running builds on command",
@@ -58,7 +58,7 @@
             "website": "http://qelp.com",
             "startDate": "2014-08-06",
             "endDate": "2015-06-06",
-            "summary": "Qelp is a company that provides smartphone help to non technical people. With QelpCare you can offer your customers 24/7 support through the channel of their liking and availability: online, mobile, retail, call center and even if they search for help using Google. Picture based tutorials, one-click fix and remote diagnostics are available to resolve complex issues or educate about new functions to increase your revenues per user. We worked with Coffeescript for the frontend and the backend was written in PHP.",
+            "summary": "Qelp is a company that provides smartphone support. With QelpCare you can offer your customers 24/7 support through the channel of their liking and availability: online, mobile, retail, call center and even if they search for help using Google. Picture based tutorials, one-click fix and remote diagnostics are available to resolve complex issues or educate about new functions to increase your revenues per user. We worked with Coffeescript for the frontend and the backend was written in PHP.",
             "highlights": [
                 "Developed a device emulator for the webbrowser. To mimic every phone. This is build with a nodejs server running Express.js and used jQuery in the browser for the rest.",
                 "A webclient generator to scrape a website replace the content with a standard client so it looks like custom trail application within 1 click. This was also created with Express.js and some jQuery in the browser. For styles I tried Semantic UI.",
@@ -70,7 +70,7 @@
             "position": "Lead Developer",
             "website": "http://mindful-meerkats.org",
             "startDate": "2014-09-11",
-            "summary": "At Mindful Meerkats I was responsible for planning, engineering and developing their entire system. This changed when I got to busy with the weekly Meetup, Daily-Javascript and full time day job. Now I advice and guide the less experienced developers who are volunteering for the experience. The platform we build is a game to make you more "mindful" of your environment and your own health. Their backend API is build using Hapi.js and authorization is done with JSON Web Tokens and Rethinkdb as a database. The CMS they use for inputting data like quests was build using React.js. The first version of the game/client was build using only JavaScript and a canvas element. But the second version is being build using Phaser.js.",
+            "summary": "At Mindful Meerkats I was responsible for planning, engineering and developing their entire system. This changed when I got to busy with the weekly Meetup, Daily-Javascript and full time day job. Now I advice and guide the less experienced developers who are volunteering for the experience. The platform we build is a game to make you more \"mindful\" of your environment and your own health. Their backend API is build using Hapi.js and authorization is done with JSON Web Tokens and Rethinkdb as a database. The CMS they use for inputting data like quests was build using React.js. The first version of the game/client was build using only JavaScript and a canvas element. But the second version is being build using Phaser.js.",
             "highlights": [
                 "Created API with Hapi.js, Rethinkdb and JSON WebTokens",
                 "Created CMS with React.js",
@@ -111,6 +111,14 @@
         }
     ],
     "volunteer": [
+        {
+            "organization": "Daily-Javascript",
+            "position": "Maintainer",
+            "website": "http://daily-javascript.com",
+            "startDate": "2015-09-26",
+            "summary": "Daily-Javascript is as platform which gives you a new library or major updates from the community every day. I started this because DailyJS was discontinued and I was missing it so I decided to take over the torch.",
+            "highlights": []
+        },
         {
             "organization": "Saterday Morning Coding Utrecht",
             "position": "Coörganizer",
