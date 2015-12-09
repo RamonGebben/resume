@@ -45,8 +45,12 @@
             "position": "Frontend Developer",
             "website": "http://touchtribe.nl",
             "startDate": "2015-07-06",
-            "summary": "",
-            "highlights": []
+            "summary": "At TouchTribe I mainly work on one project. This was a photo-book app for a very large vendor. This was a hybrid app. I came into this in the proof of concept phase the project and it will be in the app store's soon. For this project we wrote our own framework on top of Cordova. In order to keep the performance as best as we could we needed to minimize the usage of libraries and optimize every bit of JavaScript. My responsibilities in this project very diverse. From styling to continuous integration. The styling we did with LESS. The naming conventions of classes where very similar to those of BEM but not strongly enforced. For the continuous integration we are using Jenkins together with a custom web hook proxy for handling merges and releases. As a task runner we used gulp and some custom build scripts to handle the native part.",
+            "highlights": [
+                "Setup continuous integration",
+                "Created chat bot for running builds on command",
+                "Developed hybrid photo-book app"
+            ]
         },
         {
             "company": "Qelp",
@@ -66,7 +70,7 @@
             "position": "Lead Developer",
             "website": "http://mindful-meerkats.org",
             "startDate": "2014-09-11",
-            "summary": "At Mindful Meerkats I am responsible for planning, engineering and developing there entire system, which is a game to make you more mindful of your environment and your own health. I build their backend API with Hapi.js and Authorization via JSON Web Tokens. The game and the CMS are both build with React.js.",
+            "summary": "At Mindful Meerkats I was responsible for planning, engineering and developing their entire system. This changed when I got to busy with the weekly Meetup, Daily-Javascript and full time day job. Now I advice and guide the less experienced developers who are volunteering for the experience. The platform we build is a game to make you more "mindful" of your environment and your own health. Their backend API is build using Hapi.js and authorization is done with JSON Web Tokens and Rethinkdb as a database. The CMS they use for inputting data like quests was build using React.js. The first version of the game/client was build using only JavaScript and a canvas element. But the second version is being build using Phaser.js.",
             "highlights": [
                 "Created API with Hapi.js, Rethinkdb and JSON WebTokens",
                 "Created CMS with React.js",
@@ -99,7 +103,7 @@
             "website": "",
             "startDate": "2012-09-01",
             "endDate": "2013-07-01",
-            "summary": "After my training as a chef I quickly fought my way up the ladder to become a sous-chef( second man ) and started to lead a team of 3.",
+            "summary": "After my training as a chef I quickly fought my way up the ladder to become a sous-chef( second man ) and started to lead a team of 2.",
             "highlights": [
                 "Introduced serveral new dishes by various kitchens.",
                 "Became a sous-chef"
@@ -142,9 +146,12 @@
         {
             "name": "Frameworks",
             "keywords": [
-                "Express",
-                "EmberJS",
                 "React",
+                "EmberJS",
+                "Riot",
+                "Vue",
+                "Express",
+                "Koa",
                 "Sails",
                 "Rails",
                 "Sinatra"
@@ -153,6 +160,7 @@
         {
             "name": "Task runners",
             "keywords": [
+                "npm",
                 "Gulp",
                 "Yeoman",
                 "Grunt"
@@ -161,10 +169,8 @@
         {
             "name": "Build tools",
             "keywords": [
-                "Browserify",
-                "Coffeeify",
-                "Reactify",
-                "Uglify"
+                "Webpack",
+                "Browserify"
             ]
         },
         {
@@ -172,8 +178,8 @@
             "keywords": [
                 "Mocha",
                 "Chai",
-                "QUnit"
-
+                "QUnit",
+                "Jasmine"
             ]
         },
         {
@@ -182,7 +188,6 @@
                 "BaSH",
                 "FiSH",
                 "Node",
-                "Python",
                 "Ruby"
             ]
         }
@@ -228,7 +233,8 @@
         {
             "name": "Pet projets",
             "keywords": [
-                "Web apps",
+                "Maintaining Daily-Javascript",
+                "Building web apps",
                 "Making and explorings applications such as build tools and other handy tools. ",
                 "Building and flying drones"
             ]

@@ -4,7 +4,7 @@ function Resume(){
 
 Resume.prototype.drawResume = function(){
 
-}
+};
 
 
 var ramon = {
